@@ -21,6 +21,7 @@
 		F63FD04518E8914900D47804 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F63FD02718E8914900D47804 /* UIKit.framework */; };
 		F63FD04D18E8914900D47804 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F63FD04B18E8914900D47804 /* InfoPlist.strings */; };
 		F63FD04F18E8914900D47804 /* Age_Of_LaikaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F63FD04E18E8914900D47804 /* Age_Of_LaikaTests.m */; };
+		F63FD05918E8935D00D47804 /* Laika.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F63FD05818E8935D00D47804 /* Laika.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		F63FD04A18E8914900D47804 /* Age Of LaikaTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Age Of LaikaTests-Info.plist"; sourceTree = "<group>"; };
 		F63FD04C18E8914900D47804 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F63FD04E18E8914900D47804 /* Age_Of_LaikaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Age_Of_LaikaTests.m; sourceTree = "<group>"; };
+		F63FD05818E8935D00D47804 /* Laika.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Laika.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +128,7 @@
 		F63FD02A18E8914900D47804 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				F63FD05818E8935D00D47804 /* Laika.jpg */,
 				F63FD02B18E8914900D47804 /* Age Of Laika-Info.plist */,
 				F63FD02C18E8914900D47804 /* InfoPlist.strings */,
 				F63FD02F18E8914900D47804 /* main.m */,
@@ -231,6 +234,7 @@
 			files = (
 				F63FD03C18E8914900D47804 /* Images.xcassets in Resources */,
 				F63FD02E18E8914900D47804 /* InfoPlist.strings in Resources */,
+				F63FD05918E8935D00D47804 /* Laika.jpg in Resources */,
 				F63FD03718E8914900D47804 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -10,4 +10,11 @@
 
 @interface DCDViewController : UIViewController
 
+@property (strong, nonatomic) IBOutlet UITextField *dogAge;
+
+@property (strong, nonatomic) IBOutlet UILabel *dogAgeHuman;
+
+
+- (IBAction)calculate:(UIButton *)sender;
+
 @end

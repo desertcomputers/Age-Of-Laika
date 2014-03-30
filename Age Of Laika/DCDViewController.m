@@ -26,4 +26,16 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)calculate:(UIButton *)sender
+{
+//relation between human and dog years
+     
+    int dogYears = [self.dogAge.text intValue];
+    
+    int humanYears = dogYears * 7;
+    
+    self.dogAgeHuman.text = [NSString stringWithFormat:@"%i",humanYears];
+    
+    [self.dogAge resignFirstResponder];
+}
 @end
