@@ -38,4 +38,17 @@
     
     [self.dogAge resignFirstResponder];
 }
+
+- (IBAction)realAgeButton:(UIButton *)sender {
+    
+    float dogYears = [self.dogAge.text floatValue];
+    
+    float humanYears;
+    
+    if (dogYears < 2) {
+        
+        dogYears = (2* 10.5) + ((humanYears - 2) *4);
+    }
+    self.dogAgeHuman.text = [NSString stringWithFormat:@"%f",humanYears];
+}
 @end

@@ -14,7 +14,12 @@
 
 @property (strong, nonatomic) IBOutlet UILabel *dogAgeHuman;
 
+@property (strong, nonatomic) IBOutlet UILabel *realAgeHuman;
+
 
 - (IBAction)calculate:(UIButton *)sender;
+
+- (IBAction)realAgeButton:(UIButton *)sender;
+
 
 @end
